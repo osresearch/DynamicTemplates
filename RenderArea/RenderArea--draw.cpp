@@ -498,6 +498,8 @@ void RenderArea::draw( int style, DrawType where, QPainter* painter )
 
 void RenderArea::credits ( QPainter* painter )
 {
+	return;
+
 	QFont werdz ( "Blue Highway" ) ;
 	
 	QPen thePen(lineColors[0], penWidth, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
