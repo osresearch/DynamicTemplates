@@ -2,9 +2,18 @@
 
 This is a copy of the `D*I*Y` Planner Dynamic Template application
 that was posted to [diyplanner.com/node/6210](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/node/6210?page=1)
-back in 2009, but lost to the internet.  Luckily it and the [source code](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/files/Dynamic%20Templates%20v2.05a%20source.zip)
+back in 2009, but lost when the website was reorganized sometime later.  Luckily the announcement and the
+[source code](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/files/Dynamic%20Templates%20v2.05a%20source.zip)
 were crawled by the Internet Archive, so it was possible to save it.
 
+## Build instructions
+
+The 2009 code was updated to work with Qt5 on Ubuntu 18.04.  To build the `diyp` executable:
+
+```
+qmake
+make
+```
 
 ## Dynamic Templates v2.05 announcement
 
