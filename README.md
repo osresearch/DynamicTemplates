@@ -1,10 +1,12 @@
 # Dynamic Templates
 
+![E-Ink tablet displaying the calendar for 1 Jan 2021](tablet.jpg)
+
 This is a copy of the `D*I*Y` Planner Dynamic Template application
 that was posted to [diyplanner.com/node/6210](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/node/6210?page=1)
 back in 2009, but lost when the website was reorganized sometime later.  Luckily the announcement and the
 [source code](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/files/Dynamic%20Templates%20v2.05a%20source.zip)
-were crawled by the Internet Archive, so it was possible to save it.
+were crawled by the Internet Archive, so it was possible to save it.  An example of the page-per-day, "DIY3 Right Hand Style" template formatted for the reMarkable2 e-ink tablet is in [example-diy-planner.pdf](example-diy-planner.pdf).
 
 ## Build instructions
 
