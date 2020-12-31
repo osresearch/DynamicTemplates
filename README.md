@@ -6,7 +6,7 @@ This is a copy of the `D*I*Y` Planner Dynamic Template application
 that was posted to [diyplanner.com/node/6210](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/node/6210?page=1)
 back in 2009, but lost when the website was reorganized sometime later.  Luckily the announcement and the
 [source code](https://web.archive.org/web/20160321035719/http://www.diyplanner.com/files/Dynamic%20Templates%20v2.05a%20source.zip)
-were crawled by the Internet Archive, so it was possible to save it.  An example of the page-per-day, "DIY3 Right Hand Style" template formatted for the reMarkable2 e-ink tablet is in [example-diy-planner.pdf](example-diy-planner.pdf).
+were crawled by the Internet Archive, so it was possible to save it.  An example of the page-per-day, "DIY3 Right Hand Style" template formatted for the reMarkable2 e-ink tablet shown above is in [example-diy-planner.pdf](example-diy-planner.pdf) (page size 14.0x19.4cm, margins 0,0,1.5,0, line spacing 0.6cm).
 
 ## Build instructions
 
