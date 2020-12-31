@@ -1,0 +1,5 @@
+*.o
+Makefile
+.qmake.stash
+diyp
+moc_*
