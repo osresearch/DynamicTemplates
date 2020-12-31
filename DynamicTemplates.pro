@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = diyp
 DEPENDPATH += . \
               RenderArea \
               RenderArea/notes \
@@ -17,6 +17,8 @@ DEPENDPATH += . \
               RenderArea/calendars/twoPagePerYear
 INCLUDEPATH += .
 QT += svg
+QT += printsupport
+QT += widgets
 QMAKE_MAC_SDK=/Developer/SDKs/MacOSX10.4u.sdk
 CONFIG+= x86 ppc
 

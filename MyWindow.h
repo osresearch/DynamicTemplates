@@ -24,6 +24,26 @@
 #include <QWidget>
 #include <QtGui>
 #include <QtDebug>
+#include <QMainWindow>
+#include <QLineEdit>
+#include <QCalendarWidget>
+#include <QToolBox>
+#include <QDoubleSpinBox>
+#include <QDateEdit>
+#include <QLabel>
+#include <QTimeEdit>
+#include <QComboBox>
+#include <QComboBox>
+#include <QScrollArea>
+#include <QStackedLayout>
+#include <QFormLayout>
+#include <QGroupBox>
+#include <QMenu>
+#include <QMenuBar>
+#include <QStatusBar>
+#include <QDockWidget>
+#include <QToolBar>
+#include <QMessageBox>
 
 #include "RenderArea.h"
 

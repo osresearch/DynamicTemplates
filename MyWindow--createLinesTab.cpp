@@ -129,5 +129,5 @@ void MyWindow::setPenWidthLabel ( int value )
 		+ QString("%1").arg( (float) value / 10.0, 2, 'f', 1 )
 		+ ")" ;
 	
-	linesThickLabel->setText ( tr( text.toAscii().constData() ) ) ;
+	linesThickLabel->setText ( tr( text.toLatin1().constData() ) ) ;
 }
