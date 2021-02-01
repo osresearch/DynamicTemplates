@@ -10,9 +10,11 @@ were crawled by the Internet Archive, so it was possible to save it.  An example
 
 ## Build instructions
 
-The 2009 code was updated to work with Qt5 on Ubuntu 18.04.  To build the `diyp` executable:
+The 2009 code was updated to work with Qt5 on Ubuntu 18.04 and 20.04.
+To build the `diyp` executable:
 
 ```
+sudo apt install qt5-qmake qt5-default libqt5svg5-dev
 qmake
 make
 ```
