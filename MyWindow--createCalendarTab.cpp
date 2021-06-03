@@ -102,7 +102,7 @@ QWidget* MyWindow::createCalendarTab ( QWidget* grandParent )
 		this,
 		SLOT ( onePageDayVariantsChanged ( int )  )
 	) ;
-	
+
 	onePageWeekVariantsCombo = new QComboBox ( parent ) ;
 	
 	onePageWeekVariantsCombo->addItem( tr("Lines") );
@@ -284,7 +284,7 @@ QWidget* MyWindow::createCalendarTab ( QWidget* grandParent )
 	
 	renderArea->startDateChanged ( startDate ) ;
 	renderArea->stopDateChanged ( stopDate ) ;
-	renderArea->firstApptTimeChanged ( QTime ( 8, 0 ) ) ;
+	renderArea->firstApptTimeChanged ( QTime ( 10, 0 ) ) ;
 	//------------------------------------------------------------------------------------
 	firstDayCombo->setCurrentIndex ( 1 ) ;  
 	connect ( this, SIGNAL (  dateChanged (QDate) ), renderArea, SLOT ( setDate (QDate) ) ) ; 
@@ -346,7 +346,7 @@ QWidget* MyWindow::createCalendarTab ( QWidget* grandParent )
 		SLOT( apptTimeTypeChanged ( int )  )
 	) ;
 	
-	clockType->setCurrentIndex ( 1 ) ;
+	clockType->setCurrentIndex ( 2 ) ;
 	form2->addRow ( clockTypeLabel, clockType ) ;
 	//------------------------------------------------------------------------------------
 	layoutv01->addLayout ( form2, 0 ) ;
@@ -363,7 +363,7 @@ QWidget* MyWindow::createCalendarTab ( QWidget* grandParent )
 	emit startDateChanged ( startDate ) ;
 	emit stopDateChanged ( stopDate ) ;
 	emit dateChanged ( today ) ;
-	
+
 	return parent ;
 }
 

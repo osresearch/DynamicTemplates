@@ -280,10 +280,14 @@ QWidget* MyWindow::createPageTab ( QWidget* grandParent)
 	orientationComboChanged ( 1 ) ;
 
 	// default quarter inch margins
-	topMargin->setValue ( 0.25 ) ;
-	bottomMargin->setValue ( 0.25 ) ;
-	innerMargin->setValue ( 0.25 ) ;
-	outerMargin->setValue ( 0.25 ) ;	
+	topMargin->setValue ( 0.0 ) ;
+	bottomMargin->setValue ( 0.0 ) ;
+	innerMargin->setValue ( 0.6 ) ;
+	outerMargin->setValue ( 0.0 ) ;	
+
+	// tablet
+	theSize.setHeight ( 194 ); // mm
+	theSize.setWidth ( 140 ); // mm
 		
 	return parent ;
 } ;
